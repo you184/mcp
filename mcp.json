@@ -1,0 +1,15 @@
+{
+  "name": "my-mcp-server",
+  "description": "Simple MCP server with math tools",
+  "version": "1.0.0",
+  "entrypoint": "server.py",
+  "transport": "http",
+  "host": "0.0.0.0",
+  "port": 80,
+  "tools": [
+    {
+      "name": "add",
+      "description": "Adds two integer numbers together"
+    }
+  ]
+}
