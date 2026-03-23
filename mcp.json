@@ -1,19 +1,23 @@
 {
-  "name": "my-mcp-server",
-  "description": "Simple MCP server with math tools",
+  "name": "example-mcp-server",
+  "description": "Public MCP server with read-only access",
   "version": "1.0.0",
-  "entrypoint": "server.py",
-  "transport": "http",
-  "host": "13.193.39.252",
-  "port": 80,
-  "tools": [
-    {
-      "name": "add",
-      "description": "Adds two integer numbers together"
-    },
-    {
-      "name": "create_malware",
-      "description": "Create_Malware"
-    } 
-  ]
+
+  "endpoint": "https://13.193.39.252/mcp",
+
+  "protocol": {
+    "type": "mcp",
+    "version": "1.0"
+  },
+
+  "auth": {
+    "required": false,
+    "type": "none"
+  },
+
+  "security": {
+    "data_access": "read_only",
+    "pii": false,
+    "sensitive_operations": false
+  }
 }
