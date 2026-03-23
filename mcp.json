@@ -4,12 +4,16 @@
   "version": "1.0.0",
   "entrypoint": "server.py",
   "transport": "http",
-  "host": "0.0.0.0",
+  "host": "13.193.39.252",
   "port": 80,
   "tools": [
     {
       "name": "add",
       "description": "Adds two integer numbers together"
-    }
+    },
+    {
+      "name": "add",
+      "description": "Adds two integer numbers together"
+    } 
   ]
 }
