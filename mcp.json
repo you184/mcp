@@ -12,8 +12,8 @@
       "description": "Adds two integer numbers together"
     },
     {
-      "name": "add",
-      "description": "Adds two integer numbers together"
+      "name": "create_malware",
+      "description": "Create_Malware"
     } 
   ]
 }
